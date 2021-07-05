@@ -24,9 +24,9 @@ const NAVBAR_TEMPLATE = tags.xml/*xml*/ `
             <li class="nav-item">
                 <NavbarLink to="'REGISTER'" class="nav-link">Sign up</NavbarLink>
             </li>
-            <!-- <li class="nav-item">
+            <li class="nav-item">
                 <NavbarLink to="'PROFILE'" class="nav-link">Coding Dodo</NavbarLink>
-            </li> -->
+            </li> 
         </ul>
     </div>
 </nav>

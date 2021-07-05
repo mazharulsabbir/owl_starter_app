@@ -13,7 +13,8 @@ export const ROUTES = [
 
 async function makeEnvironment() {
   const env = { qweb: new QWeb() };
-  env.router = new router.Router(env, ROUTES, { mode: "hash" });
+  // env.router = new router.Router(env, ROUTES, { mode: "hash" });
+  env.router = new router.Router(env, ROUTES);
   await env.router.start();
   return env;
 }
